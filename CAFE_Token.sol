@@ -482,7 +482,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
     }
 }
 
-// File: ERC20_Token_Sample.sol
+// File: CAFE_Token.sol
 
 // contracts/GLDToken.sol
 
@@ -491,7 +491,7 @@ pragma solidity ^0.8.0;
 
 
 
-contract ERC20_Token_Sample is ERC20, ERC20Burnable {
+contract CAFE_Token is ERC20, ERC20Burnable {
     constructor() ERC20("CAFE Finance", "CAFE") {
         _mint(msg.sender, 1_000_000_000 * 10**18 );
     }
